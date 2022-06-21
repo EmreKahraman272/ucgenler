@@ -39,7 +39,6 @@ def ucgendik(x,y,z):
 x = int(input("1. kenarı giriniz."))
 y = int(input("2. kenarı giriniz."))
 z = int(input("3. kenarı giriniz."))
-n = (x + y + z)
 if ucgenkenar(x,y,z):
     print("Üçgendir.")
     print(ucgencevre(x, y, z), "üçgenin çevresidir.")
